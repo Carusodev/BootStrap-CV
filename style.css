@@ -1,0 +1,106 @@
+.gradient-background {
+    padding: 80px;
+    height: 90vh;
+    background: linear-gradient(300deg, #00bfff, #2b71d366, #15a7b7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  .footer-background {
+    margin-top: 140px;
+  }
+
+
+ 
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+
+  h1 {
+    
+    font-family: 'Times New Roman', serif ;
+    
+  }
+
+  h4 {
+    
+    font-family: 'Times New Roman', serif ;
+    
+    
+  }
+
+  h5 {
+    
+    font-family: 'Times New Roman', serif ;
+    
+  }
+
+  p {
+    font-family: 'Times New Roman', serif ;
+  }
+
+  
+
+  
+  .profile-img {
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 100px; /* Imposta la larghezza uguale all'altezza */
+    height: 100px; /* Mantieni l'altezza invariata */
+    object-fit: cover; /* Fa in modo che l'immagine si adatti senza distorsioni */
+}
+
+
+
+#h3 {
+    text-align: center;
+    font-family: 'Times New Roman', serif ;
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+
+
+
+.istruzione {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-top: 40px;
+}
+
+
+#h5 {
+    margin-top: 50px;
+}
+
+
+#date {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.bottone {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+
+
+
+
+
